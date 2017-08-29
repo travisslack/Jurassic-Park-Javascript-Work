@@ -1,3 +1,10 @@
-// var Park = function() {
-//   this.enclosures = [];
-// }
+var Park = function() {
+  this.enclosures = [];
+}
+
+
+
+
+
+
+module.exports = Park;
