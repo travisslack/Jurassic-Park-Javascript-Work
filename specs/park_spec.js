@@ -5,14 +5,20 @@ var Dinosaur = require( "../dinosaur.js" )
 describe( "Park", function() {
 
   var park;
+  var dinosaur1;
   beforeEach( function() {
     park = new Park();
-    // dinosaur1 = new Dinosaur("Tyrannosaurus", 6);
+    dinosaur1 = new Dinosaur("Tyrannosaurus", 6);
   });
 
   it( "Enclosure should start empty", function() {
     assert.strictEqual( park.enclosures.length, 0 );
   } )
+
+  it( "Enclosure can add a Dinosaur", function() {
+    park.addDinosaur(dinosaur1);
+    assert.strictEqual( park.enclosures.length, 1);
+  })
 
 
 
