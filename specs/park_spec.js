@@ -28,7 +28,6 @@ describe( "Park", function() {
 
   it("All dinosaurs with an offspring of 2+", function(){
     park.addDinosaur(dinosaur1);
-    console.log("in the park", park)
     park.dinosaurWithOffspringOfTwo(2);
     assert.strictEqual(park.enclosures.length, 1);
   })
