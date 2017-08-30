@@ -26,6 +26,11 @@ describe( "Park", function() {
     assert.strictEqual(park.enclosures.length, 0);
   })
 
+  // it("All dinosaurs with an offspring of 2+", function(){
+  //   park.dinosaurWithOffspringOfTwo(dinosaur1);
+  //   assert.strictEqual(park.enclosures.length, 1);
+  // })
+
 
 
 } )

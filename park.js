@@ -16,6 +16,16 @@ Park.prototype.removeDinosaurOfType = function(type) {
 
 }
 
+// Park.prototype.dinosaurWithOffspringOfTwo = function(offspring) {
+//   var dinosaurOffspring = []
+//   for(var i = 0; i < this.enclosures.length; i ++) {
+//     if (this.dinosaur [i].offspring === offspring) {
+//       this.dinosaur.push(offspring);
+//     }
+//   }
+//   this.dinosaur.length
+// }
+
 
 
 
